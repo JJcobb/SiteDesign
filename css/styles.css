@@ -1,0 +1,402 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 62.5%;
+}
+
+h1 {
+	font-size: 5em;
+	font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+	font-size: 4em;
+	font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+}
+
+p {
+	font-size: 1.8em;
+	font-family: "OpenSans", Helvetica, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	padding-left: 15%;
+}
+
+header h1 {
+	color: white;
+	float: left;
+	font-size: 4em;	
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	display: inline-block;
+}
+
+li {
+	display: inline-block;
+	font-family: "OpenSans", Helvetica, Arial, sans-serif;
+}
+
+ul a {
+	text-decoration: none;
+	font-size: 1.6em;
+	display: block;
+	float: left;
+	font-family: "OpenSans", Helvetica, Arial, sans-serif;
+}
+
+table {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 0.75em;
+
+	line-height: 1.8em;
+	color: #191919;
+}
+
+table tr {
+	border-bottom: 3px solid #64adf9;
+}
+
+table tr:last-child{
+	border-bottom: none;
+}
+
+table th {
+	float: left;
+	padding: 1em 0;
+	padding-left: 0.25em;
+	padding-right: 0.5em;
+
+	font-family: "SinkinSans", Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	color: #191919;
+}
+
+table td {
+	float: right;
+	padding: 1em 0;
+	padding-left: 0.5em;
+	padding-right: 0.25em;
+
+	font-family: "SinkinSans", Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	color: #64adf9;
+}
+
+strong {
+	font-weight: bold;
+}
+
+
+/* Background colors of divs */
+
+.blackbg {
+	background-color: #191919;
+}
+
+.bluebg {
+	background-color: #64adf9;
+}
+
+
+/* Div below the top header of the page */
+
+.centerContent, .pageHeader {
+	width: 60%;
+	margin: 0 auto;
+	padding: 10% 0;
+	text-align: center;
+}
+
+.pageHeader {
+	padding: 2.5% 0;
+}
+
+.centerContent h1 {
+	margin-bottom: 0.5em;
+	color: #64adf9;
+	display: inline-block;
+}
+
+.centerContent p {
+	line-height: 1.8em;
+	color: #64adf9;
+}
+
+.pageHeader h1 {
+	margin-bottom: 0;
+	color: #64adf9;
+	display: inline-block;
+}
+
+
+/* Top right navigation */
+
+.topnav {
+	float: right;
+	padding: 0 10% 0 5%;
+}
+
+.topnav li {
+	vertical-align: middle;
+}
+
+.topnav a {
+	padding: 15px;
+	color: white;
+	font-weight: bold;
+}
+
+.topnav a:hover {
+	color: #191919;
+}
+
+
+/* Home page "Devices" header */
+
+.contentHeader {
+	text-align: center;
+	padding-top: 10%;
+}
+
+.contentHeader h1 {
+	color: #191919;
+	border-bottom: 3px solid #64adf9;
+	padding-bottom: 0.1em;
+	display: inline-block;
+}
+
+
+/* Divs containing devices */
+
+.device {
+	display: block;
+	text-align: center;
+	padding: 10%;
+	margin: 0 2.5%;
+}
+
+.device h2 {
+	padding-top: 0.25em;
+	padding-bottom: 0.5em;
+	color: #64adf9;
+	font-family: "SinkinSans", Helvetica, Arial, sans-serif;
+	font-size: 3em;
+}
+
+.device p {
+	line-height: 1.8em;
+	color: #191919;
+}
+
+.deviceTop {
+	margin-top: 10%;
+}
+
+.deviceBottom {
+	margin-bottom: 30%;
+}
+
+.blueBorder {
+	box-shadow: -1px -1px 10px #64adf9;
+	-webkit-box-shadow: -1px -1px 10px #64adf9;
+	-moz-box-shadow: -1px -1px 10px #64adf9;
+}
+
+.addDevice:hover h2 {
+	text-decoration: underline;
+}
+
+.removeButton {
+	margin-top: 5%;
+}
+
+.removeButton:hover {
+	color: white;
+	background-color: red;
+	border-color: red;
+}
+
+
+/* Contact page live chat button */
+
+.chatButton {
+	margin-top: 0.5em;
+}
+
+.chatButton:hover {
+	color: #64adf9;
+	border-color: #64adf9;
+}
+
+
+/* Home page bottom div */
+
+.bottomContent {
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	padding: 10% 0 10% 0;
+	color: #191919;
+}
+
+.bottomContent h2 {
+	margin-bottom: 1em;
+}
+
+.bottomContent a, .removeButton, .chatButton {
+	padding: 15px;
+	border: 2px solid #191919;
+	text-decoration: none;
+	color: #191919;
+	border-radius: 5px;
+	font-size: 1.8em;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.bottomContent a:hover {
+	border: 2px solid white;
+	color: white;
+}
+
+
+/* Footer */
+
+.footernav {
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
+.footernav a {
+	color: #d2d2d2;
+}
+
+.footernav a:hover {
+	color: #64adf9;
+}
+
+.footernav li {
+	padding: 0 15px;
+	margin: 15px 0 0 0;
+	border-right: 1px solid #d2d2d2;
+}
+
+.footernav li:last-child {
+	border-right: none;
+}
+
+.footerinfo {
+	display: block;
+	text-align: center;
+	padding: 1.25em 0;
+	font-size: 1.4em;
+	line-height: 1.25em;
+	color: #d2d2d2;
+}
+
+.footerinfo p {
+	display: inline;
+	padding: 0 7.5px;
+	font-size: 1em;
+}
+
+.footerinfo a {
+	padding-right: 10px;
+}
+
+.footerinfo a:last-child {
+	padding-right: 0px;
+}
+
+
+/* Fonts */
+
+@font-face {
+	font-family: "Comfortaa";
+	src: url("comfortaa.otf");
+}
+
+@font-face {
+	font-family: "OpenSans";
+	src: url("opensans.otf");
+}
+
+@font-face {
+	font-family: "SinkinSans";
+	src: url("sinkinsans.otf");
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 480px) {
+
+	header {
+		padding-left: 10%;
+		padding-top: 1%;
+	}
+
+	header h1 {
+		padding: 5% 0;
+	}
+
+	.topnav {
+		padding-bottom: 5%;
+	}
+
+	.topnav a {
+		padding: 10px;
+	}
+
+	.centerContent {
+		padding: 20% 0;
+	}
+
+	.centerContent h1 {
+		font-size: 4em;
+	}
+
+	.contentHeader {
+		padding-top: 20%;
+	}
+
+	.pageHeader h1 {
+		font-size: 4em;
+	}
+
+	.deviceTop {
+		margin-top: 0;
+	}
+
+	.deviceBottom {
+		margin-bottom: 0;
+	}
+
+	.blueBorder {
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+	}
+
+	.bottomContent {
+		padding: 20% 0;
+	}
+}
